@@ -1,0 +1,155 @@
+p {
+ font-size: 1.5;
+}
+body {
+ background-color: #BFFFF0;
+ display: flex;
+ flex-direction: column;
+}
+h1 {
+  font-family: 'Sacramento';
+  font-size: 100px;
+  padding-top: 30px;
+}
+h1:hover{
+ color:#24A19C;
+}
+h2 {
+ text-align: center;
+ color: #00B4D8;
+ font-size: 30px;
+}
+p {
+ font-family: 'Roboto', sans-serif;
+ font-size: 20px;
+}
+.grid-container {
+ display: grid;
+ grid-template-columns:6fr;
+ grid-template-rows: 6fr;
+ grid-gap: 50px;
+}
+.greeting-image {
+  width:10%;
+}
+
+.land-image {
+  padding-left: 10%;
+  padding-bottom: 40px;
+}
+
+.top-container {
+ grid-column: 3/5;
+ grid-row: 2/2;
+ background-color: #BFFFF0;
+
+}
+.top-heading {
+ grid-column: 3/5;
+ grid-row: 1/1;
+}
+
+.profile {
+ grid-column: 3/4;
+ grid-row: 3/3;
+ padding-left: 50%;
+}
+.list {
+ grid-column: 3/4;
+ grid-row: 4/4;
+ padding-left: 50%;
+ padding-bottom: 20px;
+}
+.skill-row {
+ grid-column: 3/4;
+ grid-row: 5/5;
+ padding-left: 50%;
+}
+.top-heading {
+ padding-left: 30%;
+}
+.greeting-image {
+ width: 50%;
+ padding-bottom: 30px;
+}
+.tech-image {
+ width: 50%;
+}
+.skill-image {
+ width: 50%;
+}
+.list-two {
+ padding-bottom: 20px;
+}
+.hello {
+ width: 50%;
+ margin-left: 20%;
+}
+.profile h2 {
+ padding-right: 50%;
+}
+.profile p {
+ display: inline;
+ padding-right: 50%;
+ width: 90%;
+ line-height: 2;
+ letter-spacing: 1px;
+ text-align: center;
+}
+.tech-image {
+ padding-bottom: 30px;
+}
+.list h2 {
+ padding-right: 50%;
+}
+.list p {
+ padding-right: 50%;
+ width: 70%;
+ line-height: 2;
+ letter-spacing: 1px;
+}
+.skill-image {
+ padding-bottom: 30px;
+}
+.skill-row {
+ d
+}
+
+.skill-row h2 {
+ padding-right: 50%;
+}
+.skill-row p {
+ display: inline;
+ padding-right: 50%;
+ width: 30%;
+ line-height: 2;
+ letter-spacing: 1px;
+ padding-bottom: 40px;
+ text-align: center;
+}
+.footer-link {
+  padding-right: 25px;
+  font-size: 20px;
+  text-align: center;
+  color: #5800FF;
+}
+.bottom-container p {
+ padding-top: 30px;
+ padding-right: 5px;
+ text-align: center;
+ font-size: 15px;
+}
+.list-two li {
+  line-height: 2;
+}
+.footer-link:hover {
+  color: black;
+}
+.bottom-container {
+ text-align: center;
+ padding-bottom: 0;
+ padding-top: 30px;
+ background-color: #96CEB4;
+ margin: 0;
+ box-sizing: border-box;
+}
